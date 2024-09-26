@@ -402,6 +402,12 @@ body .section-3 .table {
     min-height: 489px;
   }
 }
+@media (max-width: 760px) {
+  body .section-3 .table {
+    grid-auto-columns: calc(100% - 0px);
+    grid-template-columns: 100%;
+  }
+}
 body .section-3 .table-item {
   display: flex;
 }

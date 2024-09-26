@@ -516,6 +516,12 @@ body{
                 min-height: 489px;
                 
             }
+            @media (max-width: 760px){
+                 
+                grid-auto-columns: calc(100% - 0px);
+                grid-template-columns: 100%;
+                
+            }
             
         }
         .table-item{
